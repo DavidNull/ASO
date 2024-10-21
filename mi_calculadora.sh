@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source funciones_math.sh
+source funciones.sh
 
 if [ "$1" == "s" ]; then
     resultado=$(suma $2 $3)
