@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source funciones.sh
+source funciones_math.sh
 
 if [ "$1" == "s" ]; then
     resultado=$(suma $2 $3)
@@ -9,6 +9,6 @@ elif [ "$1" == "r" ]; then
     resultado=$(resta $2 $3)
     echo "La resta de $2 y $3 es: $resultado"
 else
-    echo "Usa s para suma o r para resta."
+    echo "Operación no válida. Usa s para suma o r para resta."
 fi
 
